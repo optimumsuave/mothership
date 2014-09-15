@@ -1,0 +1,64 @@
+@import "compass";
+@import "compass/reset";
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,100);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic);
+
+$mustard : #ffb200;
+$blue : #00A9BE;
+
+@import "mixins";
+
+body {
+	font-family: Montserrat;
+
+	background: #fff;
+
+	// &.bg {
+		background: url('../images/IMAG0626.jpg') no-repeat center center fixed;
+	// }
+
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+
+ 	position: relative;
+ 	z-index: 1;
+
+ 	@include transition(background 1s ease-in-out);
+
+ 	@include breakpoint(mobile) {
+		// background: #000000;
+	}
+}
+
+
+
+p {
+	line-height: 1.4em;
+	font-weight: 300;
+	font-size: 0.9em;
+	margin-top: 10px;
+}
+
+a {
+	color: #888888;
+
+	text-decoration: underline;
+
+	&:visited {
+		color: #888888;
+	}
+
+	&:hover {
+		color: #000000;
+		text-decoration: none;
+	}
+}
+
+@import "header";
+@import "nav";
+@import "body";

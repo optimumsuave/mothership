@@ -1,0 +1,122 @@
+//Header
+
+.header {
+	min-height:190px;
+
+	@include breakpoint(mobile) {
+		min-height: 105px;
+	}
+
+	width: 100%;
+
+	.header-top {
+		height: 140px; 
+		background: rgba(0,0,0,1);
+		@include transition(all 2s ease-in-out);
+
+
+		@include breakpoint(mobile) {
+			height: 100px;
+		}
+		
+		.logo {
+			width:100%;
+			max-width: 490px;
+			padding-top:200px;
+			display: block;
+			opacity: 0;
+			margin: 0 auto;
+			@include transition(all 1s ease-in-out);
+
+			@include breakpoint(mobile) {
+				padding-top: 80px;
+			}
+
+
+			img {
+				width: 100%;
+				height: auto;
+				@include breakpoint(mobile) {
+					display: none;
+				}
+				&.mobile {
+					display: none;
+					@include breakpoint(mobile) {
+						display: block;
+						max-width: 180px;
+						margin:0 auto;
+					}
+				}
+			}
+
+
+			
+			&.shine {
+				opacity: 1;
+			}
+
+		}
+		&.shine {
+			background: rgba(0,0,0,0.6);
+		}
+
+		&.open {
+			min-height: 800px;
+		}
+
+		.tagline {
+			display:none;
+			margin-top:60px;
+			background: transparent;
+
+			@include breakpoint(mobile) {
+				margin-top:30px;
+			}
+			h1 {
+				text-align: center;
+				color: white;
+				font-size: 1.3em;
+				-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+				line-height: 1.4em;
+				@include breakpoint(mobile) {
+					font-size: 1.1em;
+					br {
+						display: none;
+					}
+				}
+				span {
+					font-family: 'Source Sans Pro', sans-serif;
+					background: $blue;
+					padding: 1px 4px;
+					margin: 0px 5px;
+					font-size: 0.9em;
+					color: white;
+					margin-top:20px;
+				}
+
+
+			}
+			h2 {
+				margin-top:20px;
+				text-align: center;
+
+			}
+
+			
+		}
+
+	}
+
+	.header-bottom {
+		background: $blue;
+		height: 100px;
+		bottom:0px;
+		position: absolute;
+
+		&.open {
+			width: 100%;
+			@include transition(all 2s ease-in-out);
+		}
+	}
+}

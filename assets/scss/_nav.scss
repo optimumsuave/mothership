@@ -1,0 +1,106 @@
+//Nav
+
+.header-nav {
+	position: fixed;
+	top:0px;
+
+	height: 54px;
+	background: white;
+	width: 100%;
+	opacity: 1;
+	@include transition(all 0.5s ease-in-out);
+
+	@include box-shadow(rgba(30, 30, 30, 0.3) 0px 11px 10px);
+  
+	&.hidden {
+		top: -400px;
+		opacity: 0;
+	}
+
+	.mobileactionbar {
+		line-height: 54px;
+		padding-left: 10px;
+		position: absolute;
+		@include transition(all 0.3s ease-in-out);
+		img {
+			margin-top: 9px;
+			height: 36px;
+			width: auto;
+		}
+		opacity: 0;
+		@include breakpoint(mobile) {
+			display: block;
+		}
+
+		&.shine{
+			opacity: 1;
+
+		}
+	}
+
+	ul {
+		margin: 0 auto;
+		display: block;
+		max-width: 960px;
+		text-align: center;
+		@include transition(all 0.3s ease-in-out);
+
+		@include breakpoint(mobile) {
+			display: none;
+		}
+		@include breakpoint(tablet) {
+			display: none;
+		}
+
+		li {
+			display: inline-block;
+			vertical-align:bottom;
+			cursor: pointer;
+			height: 54px;
+			padding:0;
+			text-align: center;
+			
+			@include transition(all 0.1s ease-in-out);
+			a {
+				color: #555;
+				text-decoration: none;
+				text-transform: uppercase;
+				margin: 0 20px;
+				font-size: 0.9em;
+				font-weight: 100;
+				line-height: 54px;
+				letter-spacing: 2px;
+				font-family: 'Source Sans Pro', sans-serif;
+
+
+				// border-bottom: transparent 2px solid;
+
+				@include transition(all 0.1s ease-in-out);
+
+				&:visited {
+
+				}	
+
+				
+
+				&.active {
+					// border-bottom: #ffb200 2px solid;
+				}
+			}
+			&:hover {
+				// border-bottom: #ffb200 2px solid;
+				background: $blue;
+				a {
+					color: white;
+				}
+			}
+
+			&.spacer {
+				width: 40%;
+				height: 1px;
+			}
+		}
+
+	}
+}
+
