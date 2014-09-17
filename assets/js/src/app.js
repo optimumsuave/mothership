@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	setTimeout(function(){
 		//$(".logo").addClass("shine");
 		// setTimeout(function(){
-		$(".header-top").addClass("shine");
+		$(".home .bg").addClass("shine");
 		// 	$(".tagline").fadeIn(3000);
 		// }, 500);
 

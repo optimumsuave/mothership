@@ -281,7 +281,6 @@ section {
 	width: 100%;
 	min-height: 600px;
 	background: #eeeeee;
-	padding-top: 80px;
 	&.blue {
 		background: $blue;
 	}
@@ -316,6 +315,105 @@ section {
 
 	}
 	
+}
+
+.home {
+	background: url('../images/IMAG0626.jpg') no-repeat center center fixed;
+	padding-top: 80px;
+	.bg {
+		background: rgba(0,0,0,1);
+		@include transition(all 2s ease-in-out);
+		min-height: 680px;
+		top: 0px;
+		z-index: 0;
+		width: 100%;
+		position: absolute;
+
+		&.shine {
+			background: rgba(0,0,0,0.6);
+		}
+
+	}
+
+
+	.logo {
+		width:100%;
+		max-width: 490px;
+		padding-top:120px;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		@include transition(all 1s ease-in-out);
+
+		@include breakpoint(mobile) {
+			padding-top: 80px;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			@include breakpoint(mobile) {
+				display: none;
+			}
+			&.mobile {
+				display: none;
+				@include breakpoint(mobile) {
+					display: block;
+					max-width: 180px;
+					margin:0 auto;
+				}
+			}
+		}
+	}
+	&.shine {
+		
+	}
+
+	&.open {
+		min-height: 800px;
+	}
+
+	.tagline {
+		margin-top:60px;
+		background: transparent;
+		position: relative;
+		z-index: 100;
+
+		@include breakpoint(mobile) {
+			margin-top:30px;
+		}
+		h1 {
+			text-align: center;
+			color: white;
+			font-size: 1.3em;
+			-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+			line-height: 1.4em;
+			@include breakpoint(mobile) {
+				font-size: 1.1em;
+				br {
+					display: none;
+				}
+			}
+			span {
+				font-family: 'Source Sans Pro', sans-serif;
+				background: $blue;
+				padding: 1px 4px;
+				margin: 0px 5px;
+				font-size: 0.9em;
+				color: white;
+				margin-top:20px;
+			}
+
+
+		}
+		h2 {
+			margin-top:20px;
+			text-align: center;
+
+		}
+	}
 }
 
 .tutors {
@@ -369,7 +467,7 @@ section {
 
 .team {
 	background: #222222;
-
+	padding-top: 80px;
 	.shell {
 		max-width: 800px;
 	}
@@ -416,7 +514,21 @@ section {
 
 .events {
 	background: url('../images/IMAG0227.jpg') no-repeat center center fixed;
-	.events-top {
-
+	padding-top: 80px;
+	.shell {
+		max-width: 800px;
 	}
+	.events-top {
+		padding-top: 40px;
+		h1 {
+			color: #fff;
+			font-size: 3em;
+
+		}
+	}
+	.events-box {
+		background: rgba(0,0,0,0.5);
+	}
+
+
 }
