@@ -4,8 +4,14 @@
 	max-width: 940px;
 	margin: 0 auto;
 
+	@include breakpoint(tablet) {
+		width: auto;
+		padding: 0 10px;
+	}
+
 	@include breakpoint(mobile) {
 		width: auto;
+		padding: 0 10px;
 	}
 }
 
@@ -279,12 +285,13 @@
 section {
 	min-height: 600px;
 	background: #eeeeee;
+	float: left;
+	width:  100%;
 	&.blue {
 		background: $blue;
 	}
 
 	.shell {
-		width: 100%;
 		max-width: 920px;
 
 		.b-100{
@@ -328,14 +335,15 @@ section {
 	}
 	.bg {
 		background: rgba(0,0,0,1);
-		@include transition(all 2s ease-in-out);
-		min-height: 600px;
+		
+		min-height: 700px;
 		top: 0px;
 		z-index: 0;
 		width: 100%;
 		position: absolute;
 
 		&.shine {
+			@include transition(all 2s ease-in-out);
 			background: rgba(0,0,0,0.6);
 		}
 
@@ -442,6 +450,9 @@ section {
 
 .tutors {
 	padding-top: 140px;
+	@include breakpoint(mobile) {
+		padding-top: 40px;
+	}
 	.tutors-width {
 		max-width: 800px;
 	}
@@ -497,6 +508,9 @@ section {
 			font-family: 'Source Sans Pro';
 			font-size: 1.2em;
 			color: #ffffff;
+			@include breakpoint(mobile) {
+				width: 100%;
+			}
 		}
 	}
 	.tutors-pic {
