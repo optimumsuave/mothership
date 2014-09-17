@@ -449,6 +449,7 @@ section {
 }
 
 .tutors {
+	position: relative;
 	padding-top: 140px;
 	@include breakpoint(mobile) {
 		padding-top: 80px;
