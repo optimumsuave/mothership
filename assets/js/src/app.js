@@ -3,8 +3,8 @@ $( document ).ready(function() {
 	SCROLL_SPEED = 1000;
 	function setBoxHeight(){
 		
-		$(".home, .tutors, .team").css("height", $(window).height() + "px");
-		$(".home .bg").css("height", $(window).height() + "px");
+		$(".home, .tutors, .team").css("min-height", $(window).height() + "px");
+		$(".home .bg").css("min-height", $(window).height() + "px");
 	}
 	setBoxHeight();
 	
