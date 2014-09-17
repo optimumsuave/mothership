@@ -4,8 +4,8 @@ $( document ).ready(function() {
 	function setBoxHeight(){
 		$(".home, .tutors, .team").css("min-height", $(window).height() + "px");
 		var h = $(window).height();
-		if(h < 600) {
-			$(".home .bg").css("min-height", "600px");
+		if(h < 700) {
+			$(".home .bg").css("min-height", "700px");
 		} else {
 			$(".home .bg").css("min-height", $(window).height() + 80 + "px");
 		}
