@@ -4,7 +4,9 @@
 	max-width: 940px;
 	margin: 0 auto;
 
-
+	@include breakpoint(mobile) {
+		width: auto;
+	}
 }
 
 
