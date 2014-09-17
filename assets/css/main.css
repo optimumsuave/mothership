@@ -635,7 +635,9 @@ section {
       color: #00a9be; }
     /* line 399, ../scss/_body.scss */
     .team .team-box img {
-      width: 120px;
+      width: 100px;
       height: auto;
       float: left;
-      margin-right: 20px; }
+      margin-right: 20px;
+      border-radius: 50px;
+      margin-bottom: 200px; }

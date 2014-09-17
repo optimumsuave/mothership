@@ -397,10 +397,16 @@ section {
 			color: $blue;
 		}
 		img {
-			width: 120px;
+			width: 100px;
 			height: auto;
 			float: left;
 			margin-right: 20px;
+			border-radius: 50px;
+			margin-bottom: 200px;
+		}
+
+		.team-info {
+
 		}
 	}
 }
