@@ -414,6 +414,24 @@ section {
 
 		}
 	}
+
+	.arrow {
+		margin: 0 auto;
+		width: 90px;
+		margin-top: 60px;
+		position: relative;
+		z-index: 100;
+		opacity: 0.5;
+		@include transition(all 0.2s ease-in-out);
+		cursor: pointer;
+		&:hover{
+			opacity: 1;
+		}
+		img {
+			width: 100%;
+		}
+	}
+	
 }
 
 .tutors {
@@ -461,6 +479,14 @@ section {
 			height: auto;
 		}
 	}
+	.soon {
+		color: #fff;
+		margin-top: 50px;
+		border: #fff solid 2px;
+		padding: 10px 20px;
+		float: left;
+	}
+
 
 }
 
@@ -474,6 +500,7 @@ section {
 	.team-top {
 		width: 100%;
 		float: left;
+		padding-top: 150px;
 		h1 {
 			font-size: 3em;
 			float: left;

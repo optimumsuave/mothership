@@ -1,16 +1,21 @@
 $( document ).ready(function() {
 
+	SCROLL_SPEED = 1000;
+
 	$(".home .bg").css("height", $(window).height() + 80 + "px");
-	$(".home, .tutors").css("height", $(window).height() + "px");
+	$(".home, .tutors, .team").css("height", $(window).height() + "px");
 
 	$(".menu li").click(function(){
 	
 		$.smoothScroll({
      		scrollTarget: $(this).find('a').attr('href'),
+     		speed: SCROLL_SPEED
     	});
 	});
 
-	$('a').smoothScroll();
+	$('a').smoothScroll({
+		speed: SCROLL_SPEED
+	});
 
 
 	setTimeout(function(){

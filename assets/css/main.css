@@ -656,34 +656,53 @@ section {
     .home .tagline h2 {
       margin-top: 20px;
       text-align: center; }
+  /* line 418, ../scss/_body.scss */
+  .home .arrow {
+    margin: 0 auto;
+    width: 90px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 100;
+    opacity: 0.5;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer; }
+    /* line 427, ../scss/_body.scss */
+    .home .arrow:hover {
+      opacity: 1; }
+    /* line 430, ../scss/_body.scss */
+    .home .arrow img {
+      width: 100%; }
 
-/* line 419, ../scss/_body.scss */
+/* line 437, ../scss/_body.scss */
 .tutors {
   padding-top: 140px; }
-  /* line 421, ../scss/_body.scss */
+  /* line 439, ../scss/_body.scss */
   .tutors .tutors-width {
     max-width: 800px; }
-  /* line 425, ../scss/_body.scss */
+  /* line 443, ../scss/_body.scss */
   .tutors .tutors-top-banner {
     text-align: center; }
-    /* line 427, ../scss/_body.scss */
+    /* line 445, ../scss/_body.scss */
     .tutors .tutors-top-banner img {
       width: 100%;
       height: auto; }
-  /* line 433, ../scss/_body.scss */
+  /* line 451, ../scss/_body.scss */
   .tutors .tutors-tag {
     padding-top: 60px;
     text-align: left;
     margin: 0 auto; }
-    /* line 438, ../scss/_body.scss */
+    /* line 456, ../scss/_body.scss */
     .tutors .tutors-tag h1 {
       color: #fff;
       font-size: 2em; }
-  /* line 444, ../scss/_body.scss */
+  /* line 462, ../scss/_body.scss */
   .tutors .tutors-mid {
     margin: 0 auto;
     padding-top: 40px; }
-    /* line 447, ../scss/_body.scss */
+    /* line 465, ../scss/_body.scss */
     .tutors .tutors-mid p {
       margin-bottom: 20px;
       margin-top: 0;
@@ -692,44 +711,52 @@ section {
       font-family: 'Source Sans Pro';
       font-size: 1.2em;
       color: #ffffff; }
-  /* line 458, ../scss/_body.scss */
+  /* line 476, ../scss/_body.scss */
   .tutors .tutors-pic img {
     width: 95%;
     margin-left: 5%;
     height: auto; }
+  /* line 482, ../scss/_body.scss */
+  .tutors .soon {
+    color: #fff;
+    margin-top: 50px;
+    border: #fff solid 2px;
+    padding: 10px 20px;
+    float: left; }
 
-/* line 468, ../scss/_body.scss */
+/* line 494, ../scss/_body.scss */
 .team {
   background: #222222;
   padding-top: 80px; }
-  /* line 471, ../scss/_body.scss */
+  /* line 497, ../scss/_body.scss */
   .team .shell {
     max-width: 800px; }
-  /* line 474, ../scss/_body.scss */
+  /* line 500, ../scss/_body.scss */
   .team .team-top {
     width: 100%;
-    float: left; }
-    /* line 477, ../scss/_body.scss */
+    float: left;
+    padding-top: 150px; }
+    /* line 504, ../scss/_body.scss */
     .team .team-top h1 {
       font-size: 3em;
       float: left;
       margin-bottom: 20px;
       clear: both;
       color: #fff; }
-  /* line 485, ../scss/_body.scss */
+  /* line 512, ../scss/_body.scss */
   .team .team-box {
     float: left;
     width: 50%;
     margin: 0 auto;
     color: #fff; }
-    /* line 490, ../scss/_body.scss */
+    /* line 517, ../scss/_body.scss */
     .team .team-box h2 {
       font-size: 1.4em; }
-    /* line 493, ../scss/_body.scss */
+    /* line 520, ../scss/_body.scss */
     .team .team-box h3 {
       font-size: 0.9em;
       color: #00a9be; }
-    /* line 497, ../scss/_body.scss */
+    /* line 524, ../scss/_body.scss */
     .team .team-box img {
       width: 100px;
       height: auto;
@@ -737,11 +764,11 @@ section {
       margin-right: 20px;
       border-radius: 50px;
       margin-bottom: 200px; }
-    /* line 507, ../scss/_body.scss */
+    /* line 534, ../scss/_body.scss */
     .team .team-box .team-info p {
       width: 90%;
       font-family: 'Source Sans Pro'; }
-      /* line 510, ../scss/_body.scss */
+      /* line 537, ../scss/_body.scss */
       .team .team-box .team-info p a {
         color: #00a9be;
         text-decoration: none;
@@ -749,25 +776,25 @@ section {
         -moz-transition: color 0.15s ease-in-out;
         -o-transition: color 0.15s ease-in-out;
         transition: color 0.15s ease-in-out; }
-        /* line 514, ../scss/_body.scss */
+        /* line 541, ../scss/_body.scss */
         .team .team-box .team-info p a:hover {
           color: #FFF; }
 
-/* line 523, ../scss/_body.scss */
+/* line 550, ../scss/_body.scss */
 .events {
   background: url("../images/IMAG0227.jpg") no-repeat center center fixed;
   padding-top: 80px; }
-  /* line 526, ../scss/_body.scss */
+  /* line 553, ../scss/_body.scss */
   .events .shell {
     max-width: 800px; }
-  /* line 529, ../scss/_body.scss */
+  /* line 556, ../scss/_body.scss */
   .events .events-top {
     padding-top: 40px; }
-    /* line 531, ../scss/_body.scss */
+    /* line 558, ../scss/_body.scss */
     .events .events-top h1 {
       color: #fff;
       font-size: 3em; }
-  /* line 537, ../scss/_body.scss */
+  /* line 564, ../scss/_body.scss */
   .events .events-box {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -775,32 +802,32 @@ section {
     margin-top: 20px;
     float: left;
     clear: both; }
-    /* line 544, ../scss/_body.scss */
+    /* line 571, ../scss/_body.scss */
     .events .events-box p {
       font-family: 'Source Sans Pro'; }
 
-/* line 555, ../scss/_body.scss */
+/* line 582, ../scss/_body.scss */
 .footer {
   min-height: 180px;
   background: #9d9d9d; }
-  /* line 558, ../scss/_body.scss */
+  /* line 585, ../scss/_body.scss */
   .footer .shell {
     max-width: 800px; }
-  /* line 561, ../scss/_body.scss */
+  /* line 588, ../scss/_body.scss */
   .footer .footer-inner {
     padding-top: 40px;
     color: #fff;
     font-size: 0.8em; }
-    /* line 565, ../scss/_body.scss */
+    /* line 592, ../scss/_body.scss */
     .footer .footer-inner .facebook, .footer .footer-inner .twitter {
       width: 48px;
       height: 48px; }
-      /* line 572, ../scss/_body.scss */
+      /* line 599, ../scss/_body.scss */
       .footer .footer-inner .facebook path, .footer .footer-inner .twitter path {
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
-      /* line 577, ../scss/_body.scss */
+      /* line 604, ../scss/_body.scss */
       .footer .footer-inner .facebook:hover path, .footer .footer-inner .twitter:hover path {
         fill: #00a9be; }
