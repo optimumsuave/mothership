@@ -51,7 +51,7 @@ $( document ).ready(function() {
         }
     });
 
-    $(window).on('resize', function(){
+    $(document).on('resize', function(){
     	setBoxHeight();
 
     });
