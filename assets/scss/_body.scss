@@ -290,9 +290,6 @@ section {
 		width: 100%;
 		max-width: 920px;
 
-		h1 {
-			font-size: 2em;
-		}
 		.b-100{
 			width: 100%;
 		}
@@ -342,6 +339,8 @@ section {
 
 		h1 {
 			color: #fff;
+			font-size: 2em;
+
 		}
 	}
 	.tutors-mid {
@@ -354,6 +353,7 @@ section {
 			line-height: 1.5em;
 			font-family: 'Source Sans Pro';
 			font-size: 1.2em;
+			color: #ffffff;
 		}
 	}
 	.tutors-pic {
@@ -364,4 +364,43 @@ section {
 		}
 	}
 
+}
+
+
+.team {
+	background: #222222;
+
+	.shell {
+		max-width: 800px;
+	}
+	.team-top {
+		width: 100%;
+		float: left;
+		h1 {
+			font-size: 3em;
+			float: left;
+			margin-bottom: 20px;
+			clear:both;
+			color:#fff;
+		}
+	}
+	.team-box {
+		float: left;
+		width: 50%;
+		margin: 0 auto;
+		color: #fff;
+		h2 {
+			font-size: 1.4em;
+		}
+		h3 {
+			font-size: 0.9em;
+			color: $blue;
+		}
+		img {
+			width: 120px;
+			height: auto;
+			float: left;
+			margin-right: 20px;
+		}
+	}
 }

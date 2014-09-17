@@ -540,66 +540,102 @@ section {
     width: 100%;
     max-width: 920px; }
     /* line 293, ../scss/_body.scss */
-    section .shell h1 {
-      font-size: 2em; }
-    /* line 296, ../scss/_body.scss */
     section .shell .b-100 {
       width: 100%; }
-    /* line 299, ../scss/_body.scss */
+    /* line 296, ../scss/_body.scss */
     section .shell .b-50 {
       width: 100%;
       width: 50%; }
-    /* line 303, ../scss/_body.scss */
+    /* line 300, ../scss/_body.scss */
     section .shell .mw-700 {
       max-width: 700px; }
-    /* line 306, ../scss/_body.scss */
+    /* line 303, ../scss/_body.scss */
     section .shell .ta-left {
       text-align: left; }
-    /* line 309, ../scss/_body.scss */
+    /* line 306, ../scss/_body.scss */
     section .shell .center {
       margin: 0 auto; }
-    /* line 312, ../scss/_body.scss */
+    /* line 309, ../scss/_body.scss */
     section .shell .b-left {
       float: left; }
-    /* line 316, ../scss/_body.scss */
+    /* line 313, ../scss/_body.scss */
     section .shell .b-right {
       float: right; }
 
-/* line 324, ../scss/_body.scss */
+/* line 321, ../scss/_body.scss */
 .tutors {
   padding-top: 140px; }
-  /* line 326, ../scss/_body.scss */
+  /* line 323, ../scss/_body.scss */
   .tutors .tutors-width {
     max-width: 800px; }
-  /* line 330, ../scss/_body.scss */
+  /* line 327, ../scss/_body.scss */
   .tutors .tutors-top-banner {
     text-align: center; }
-    /* line 332, ../scss/_body.scss */
+    /* line 329, ../scss/_body.scss */
     .tutors .tutors-top-banner img {
       width: 100%;
       height: auto; }
-  /* line 338, ../scss/_body.scss */
+  /* line 335, ../scss/_body.scss */
   .tutors .tutors-tag {
     padding-top: 60px;
     text-align: left;
     margin: 0 auto; }
-    /* line 343, ../scss/_body.scss */
+    /* line 340, ../scss/_body.scss */
     .tutors .tutors-tag h1 {
-      color: #fff; }
-  /* line 347, ../scss/_body.scss */
+      color: #fff;
+      font-size: 2em; }
+  /* line 346, ../scss/_body.scss */
   .tutors .tutors-mid {
     margin: 0 auto;
     padding-top: 40px; }
-    /* line 350, ../scss/_body.scss */
+    /* line 349, ../scss/_body.scss */
     .tutors .tutors-mid p {
       margin-bottom: 20px;
       margin-top: 0;
       width: 95%;
       line-height: 1.5em;
       font-family: 'Source Sans Pro';
-      font-size: 1.2em; }
+      font-size: 1.2em;
+      color: #ffffff; }
   /* line 360, ../scss/_body.scss */
   .tutors .tutors-pic img {
     width: 95%;
     margin-left: 5%;
     height: auto; }
+
+/* line 370, ../scss/_body.scss */
+.team {
+  background: #222222; }
+  /* line 373, ../scss/_body.scss */
+  .team .shell {
+    max-width: 800px; }
+  /* line 376, ../scss/_body.scss */
+  .team .team-top {
+    width: 100%;
+    float: left; }
+    /* line 379, ../scss/_body.scss */
+    .team .team-top h1 {
+      font-size: 3em;
+      float: left;
+      margin-bottom: 20px;
+      clear: both;
+      color: #fff; }
+  /* line 387, ../scss/_body.scss */
+  .team .team-box {
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff; }
+    /* line 392, ../scss/_body.scss */
+    .team .team-box h2 {
+      font-size: 1.4em; }
+    /* line 395, ../scss/_body.scss */
+    .team .team-box h3 {
+      font-size: 0.9em;
+      color: #00a9be; }
+    /* line 399, ../scss/_body.scss */
+    .team .team-box img {
+      width: 120px;
+      height: auto;
+      float: left;
+      margin-right: 20px; }
