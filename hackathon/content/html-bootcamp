@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/content/html-bootcamp" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="http://creativemediadev.com/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="HTML Bootcamp" about="/content/html-bootcamp" property="dc:title" />
+<link rel="shortlink" href="/node/16" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/html-bootcamp" />
+  <title>HTML Bootcamp | Creative Media Development Club</title>
+  <style type="text/css" media="all">@import url("http://creativemediadev.com/modules/system/system.base.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.menus.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.messages.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.theme.css?n3p5bs");</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/modules/comment/comment.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/field/theme/field.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/logintoboggan/logintoboggan.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/node/node.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/search/search.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/user/user.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/views/css/views.css?n3p5bs");</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/sites/all/modules/ckeditor/ckeditor.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/ctools/css/ctools.css?n3p5bs");</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#bgg{background-color:#99cc00 !important;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/sites/all/themes/cmd/css/unsemantic-grid-responsive.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/themes/cmd/css/styles.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/themes/cmd/css/mobile.css?n3p5bs");</style>
+  <script type="text/javascript" src="http://creativemediadev.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://creativemediadev.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://creativemediadev.com/misc/drupal.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/modules/google_analytics/googleanalytics.js?n3p5bs"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-47858114-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/jquery.cycle.all.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/jquery.countdown.min.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/smoothscroll.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/core.js?n3p5bs"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cmd","theme_token":"xYb-J5pVvl7ARaAWzffVoEhn7ZBjALAK5jEHB0W7uzk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/cmd\/jquery.cycle.all.js":1,"sites\/all\/themes\/cmd\/jquery.countdown.min.js":1,"sites\/all\/themes\/cmd\/smoothscroll.js":1,"sites\/all\/themes\/cmd\/core.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"0":1,"sites\/all\/themes\/cmd\/css\/unsemantic-grid-responsive.css":1,"sites\/all\/themes\/cmd\/css\/styles.css":1,"sites\/all\/themes\/cmd\/css\/mobile.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-16 node-type-workshop" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+     
+<meta name="viewport" content="initial-scale=1.0, width=device-width,user-scalable=no" />
+
+<div class="header transf">
+	<div class="shell">
+		<div class="tricon">
+			<img src="/sites/all/themes/cmd/tricon.png"/>
+		</div>
+		<div class="logo">
+			<img src="/sites/all/themes/cmd/cmdlogosmall.png"/>
+		</div>
+		                <div id="main-menu">
+                	<ul id="main-menu-links" class="links clearfix menu"><li class="menu-221 first"><a href="/">Home</a></li>
+<li class="menu-364"><a href="/content/team">Team</a></li>
+<li class="menu-944"><a href="/hackathon">Hackathon</a></li>
+<li class="menu-989"><a href="/resources" title="Resources for Design &amp; Development">Resources</a></li>
+<li class="menu-1464 last"><a href="/workshops" title="">Workshops</a></li>
+</ul>                </div> <!-- /#main-menu -->
+                	</div>
+</div>
+<div class="wrap">
+		<div id="bgg" style="height:10px;width:100%;"></div>
+
+	<div class="shell">
+						<h1>HTML Bootcamp</h1>
+		
+
+			<div id="content" class="column"><div class="section">
+				<a id="main-content"></a>
+								<div class="tabs"> 	
+				  				</div>
+																
+				        <div id="node-16" class="node node-workshop clearfix" about="/content/html-bootcamp" typeof="sioc:Item foaf:Document">
+
+      
+      <div class="meta submitted">
+            <span class="submitted"><span property="dc:date dc:created" content="2014-05-13T10:27:55-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/users/kknopp" typeof="sioc:UserAccount" property="foaf:name" datatype="">kknopp</span> on Tue, 05/13/2014 - 10:27</span></span>
+    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This will be an introductory workshop for complete beginners. We will be covering the basics of HTML syntax and structure as well as an intro into CSS. Come prepared with your laptop and a charger!</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+								</div></div> <!-- /.section, /#content -->
+		</div>
+</div>
+  </body>
+</html>

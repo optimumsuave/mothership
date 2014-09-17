@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/content/ajax-amateurs" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="http://creativemediadev.com/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="AJAX for Amateurs" about="/content/ajax-amateurs" property="dc:title" />
+<link rel="shortlink" href="/node/14" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/ajax-amateurs" />
+  <title>AJAX for Amateurs | Creative Media Development Club</title>
+  <style type="text/css" media="all">@import url("http://creativemediadev.com/modules/system/system.base.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.menus.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.messages.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.theme.css?n3p5bs");</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/modules/comment/comment.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/field/theme/field.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/logintoboggan/logintoboggan.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/node/node.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/search/search.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/user/user.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/views/css/views.css?n3p5bs");</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/sites/all/modules/ckeditor/ckeditor.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/ctools/css/ctools.css?n3p5bs");</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#bgg{background-color:#ffcc00 !important;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/sites/all/themes/cmd/css/unsemantic-grid-responsive.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/themes/cmd/css/styles.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/themes/cmd/css/mobile.css?n3p5bs");</style>
+  <script type="text/javascript" src="http://creativemediadev.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://creativemediadev.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://creativemediadev.com/misc/drupal.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/modules/google_analytics/googleanalytics.js?n3p5bs"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-47858114-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/jquery.cycle.all.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/jquery.countdown.min.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/smoothscroll.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/core.js?n3p5bs"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cmd","theme_token":"3pJAjZndGilnpzhiOGjUux8AVy9BDrF4fz19X6wQ5zw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/cmd\/jquery.cycle.all.js":1,"sites\/all\/themes\/cmd\/jquery.countdown.min.js":1,"sites\/all\/themes\/cmd\/smoothscroll.js":1,"sites\/all\/themes\/cmd\/core.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"0":1,"sites\/all\/themes\/cmd\/css\/unsemantic-grid-responsive.css":1,"sites\/all\/themes\/cmd\/css\/styles.css":1,"sites\/all\/themes\/cmd\/css\/mobile.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-14 node-type-workshop" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+     
+<meta name="viewport" content="initial-scale=1.0, width=device-width,user-scalable=no" />
+
+<div class="header transf">
+	<div class="shell">
+		<div class="tricon">
+			<img src="/sites/all/themes/cmd/tricon.png"/>
+		</div>
+		<div class="logo">
+			<img src="/sites/all/themes/cmd/cmdlogosmall.png"/>
+		</div>
+		                <div id="main-menu">
+                	<ul id="main-menu-links" class="links clearfix menu"><li class="menu-221 first"><a href="/">Home</a></li>
+<li class="menu-364"><a href="/content/team">Team</a></li>
+<li class="menu-944"><a href="/hackathon">Hackathon</a></li>
+<li class="menu-989"><a href="/resources" title="Resources for Design &amp; Development">Resources</a></li>
+<li class="menu-1464 last"><a href="/workshops" title="">Workshops</a></li>
+</ul>                </div> <!-- /#main-menu -->
+                	</div>
+</div>
+<div class="wrap">
+		<div id="bgg" style="height:10px;width:100%;"></div>
+
+	<div class="shell">
+						<h1>AJAX for Amateurs</h1>
+		
+
+			<div id="content" class="column"><div class="section">
+				<a id="main-content"></a>
+								<div class="tabs"> 	
+				  				</div>
+																
+				        <div id="node-14" class="node node-workshop clearfix" about="/content/ajax-amateurs" typeof="sioc:Item foaf:Document">
+
+      
+      <div class="meta submitted">
+            <span class="submitted"><span property="dc:date dc:created" content="2014-04-07T14:49:17-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/users/drupal" typeof="sioc:UserAccount" property="foaf:name" datatype="">drupal</span> on Mon, 04/07/2014 - 14:49</span></span>
+    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-files field-type-file field-label-above"><div class="field-label">Files:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="" title="application/zip" src="/modules/file/icons/package-x-generic.png" /> <a href="http://creativemediadev.com/sites/creativemediadev.com/files/coursecontent/ajax_part1.zip" type="application/zip; length=793">ajax_part1.zip</a></span></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Come Learn how to code AJAX!</p>
+<p>In this workshop you will learn how to access AJAX API's as well as build some engaging interactive javascript things with a backend service (Firebase).</p>
+<p>Come check it out in the library fishbowls, Monday at 3pm.&nbsp;</p>
+<h2>Project #1</h2>
+<p>In this first section of the workshop we will be learning how to set up an ajax call. The goal is to get the current temperature from any city in the world and then display it on our page.</p>
+<h3>SIDE NOTES:</h3>
+<p>Twitter has made their API no longer public - you need to have an API Key, or some kind of authentication that is able to make requests on your behalf. This is so they can keep out bots and other scripts that might have been making tens of thousands of faux tweets. Ultimately this is resource heavy and servers = costly.</p>
+<p>SO, in the event that Twitter sucks now...we will be using a free and open API for weather:&nbsp;<a href="http://openweathermap.org/API">http://openweathermap.org/API</a></p>
+<p>Also, an excellent video from Lynda.com on AJAX -&nbsp;<a href="https://www.youtube.com/watch?v=RDo3hBL1rfA">https://www.youtube.com/watch?v=RDo3hBL1rfA</a></p>
+<h3>WEATHER IN THE WORLD</h3>
+<p>1. Please download the first project zip folder to get started.&nbsp;</p>
+<p>2. Open up the ajax_index.html file in your code editor of choice (Sublime, N++, TextWrangler).</p>
+<p>3. Examine the &lt;script&gt; area where there are some comments that say to start writing your AJAX calls there.</p>
+<p>4. Inside of the &lt;script&gt; is the first thing you need to do when loading some jQuery code - the ".ready()" function. This allows the entire page to load (divs, images, css, other website crap) and THEN executes the code within it. This is important because if your javascript runs and something isn't&nbsp;<em>ready</em>&nbsp;on the page when it needs it, you will get errors.</p>
+<p>5. The other lines of code bind a click listener to the "Go" button, so that when it is clicked something happens inside of its callback. Essentially all we have to start with is a text box and a button that triggers our ajax call.&nbsp;</p>
+<p>6. We need to put our ajax call inside the trigger from the button and then configure it.&nbsp;</p>
+<p>7. The necessary parts of an AJAX jQuery request are&nbsp;<span style="font-family:inherit; font-size:1em">the <strong>URL</strong> of the server, the <strong>type</strong> of request, the <strong>data&nbsp;</strong>you want to send, and then there is a callback if the AJAX request is&nbsp;<strong>successful&nbsp;</strong>where we can see all the&nbsp;<strong>data</strong>&nbsp;the server sent back to us.</span></p>
+<p><span style="font-family:inherit; font-size:1em">8. The URL of the server in question is&nbsp;</span><a href="http://api.openweathermap.org/data/2.5/weather">http://api.openweathermap.org/data/2.5/weather</a></p>
+<p>9. The type of request is "GET". This simply just appends data onto the end of the URL we are requesting.&nbsp;</p>
+<p>For example, if we wanted to tell our server that variable "q" is set to "bananas", then our GET request would be&nbsp;<strong><a href="http://website.com/?q=bananas">http://website.com/?q=bananas</a></strong></p>
+<p>The other types of requests are for sending data that can be hidden from the address bar, etc.</p>
+<p>10. The data we want to send the server is regarding what city we want it to look up for us. In this case, this weather API uses the variable "q". Accessing the input text box on the ajax_index.html page in jQuery looks like $("#city").val();</p>
+<p>Also, we have to watch out for spaces and other junk, so we will use a function that cleans things up - JSON.stringify();</p>
+<p>Altogether we have " q: JSON.stringify($("#city").val()) "</p>
+<p>&nbsp;</p>
+<p>11. Now that the AJAX call is set up, it will run, but how will we know if it was successful? And we want our temperature data too!</p>
+<p>12. Create a success: function() within the $.ajax() call, inside of the success function, lets output to the console so we know what data was received. This can be accomplished with console.log(data);</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+								</div></div> <!-- /.section, /#content -->
+		</div>
+</div>
+  </body>
+</html>

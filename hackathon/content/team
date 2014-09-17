@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/content/team" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="http://creativemediadev.com/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="Team" about="/content/team" property="dc:title" />
+<link rel="shortlink" href="/node/2" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/team" />
+  <title>Team | Creative Media Development Club</title>
+  <style type="text/css" media="all">@import url("http://creativemediadev.com/modules/system/system.base.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.menus.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.messages.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/system/system.theme.css?n3p5bs");</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/modules/comment/comment.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/field/theme/field.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/logintoboggan/logintoboggan.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/node/node.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/search/search.css?n3p5bs");
+@import url("http://creativemediadev.com/modules/user/user.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/views/css/views.css?n3p5bs");</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/sites/all/modules/ckeditor/ckeditor.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/modules/ctools/css/ctools.css?n3p5bs");</style>
+<style type="text/css" media="all">@import url("http://creativemediadev.com/sites/all/themes/cmd/css/unsemantic-grid-responsive.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/themes/cmd/css/styles.css?n3p5bs");
+@import url("http://creativemediadev.com/sites/all/themes/cmd/css/mobile.css?n3p5bs");</style>
+  <script type="text/javascript" src="http://creativemediadev.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://creativemediadev.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://creativemediadev.com/misc/drupal.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/modules/google_analytics/googleanalytics.js?n3p5bs"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-47858114-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/jquery.cycle.all.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/jquery.countdown.min.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/smoothscroll.js?n3p5bs"></script>
+<script type="text/javascript" src="http://creativemediadev.com/sites/all/themes/cmd/core.js?n3p5bs"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cmd","theme_token":"qkq8b6D3hVoHifJ4vCXTUXgf9s2pFUB8exvdA2YmMM8","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/cmd\/jquery.cycle.all.js":1,"sites\/all\/themes\/cmd\/jquery.countdown.min.js":1,"sites\/all\/themes\/cmd\/smoothscroll.js":1,"sites\/all\/themes\/cmd\/core.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/cmd\/css\/unsemantic-grid-responsive.css":1,"sites\/all\/themes\/cmd\/css\/styles.css":1,"sites\/all\/themes\/cmd\/css\/mobile.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2 node-type-page" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+     
+<meta name="viewport" content="initial-scale=1.0, width=device-width,user-scalable=no" />
+
+<div class="header transf">
+	<div class="shell">
+		<div class="tricon">
+			<img src="/sites/all/themes/cmd/tricon.png"/>
+		</div>
+		<div class="logo">
+			<img src="/sites/all/themes/cmd/cmdlogosmall.png"/>
+		</div>
+		                <div id="main-menu">
+                	<ul id="main-menu-links" class="links clearfix menu"><li class="menu-221 first"><a href="/">Home</a></li>
+<li class="menu-364 active-trail active"><a href="/content/team" class="active-trail active">Team</a></li>
+<li class="menu-944"><a href="/hackathon">Hackathon</a></li>
+<li class="menu-989"><a href="/resources" title="Resources for Design &amp; Development">Resources</a></li>
+<li class="menu-1464 last"><a href="/workshops" title="">Workshops</a></li>
+</ul>                </div> <!-- /#main-menu -->
+                	</div>
+</div>
+<div class="wrap">
+		<div id="bgg" style="height:10px;width:100%;"></div>
+
+	<div class="shell">
+						<h1>Team</h1>
+		
+
+			<div id="content" class="column"><div class="section">
+				<a id="main-content"></a>
+								<div class="tabs"> 	
+				  				</div>
+																
+				        <div id="node-2" class="node node-page clearfix" about="/content/team" typeof="foaf:Document">
+
+      
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>&nbsp;</p>
+<h4>&nbsp;</h4>
+<p><img alt="Scott Toshiro Burns" class="team" src="/sites/creativemediadev.com/files/scott-new_0.jpg" style="float:left; font-family:source sans pro,sans-serif; font-size:16px; height:240px; overflow:hidden; width:225px" /></p>
+<h5>SCOTT Toshiro BURNS</h5>
+<h4>PRESIDENT</h4>
+<p>As cofounder and club president, Scott works to maintain a strong forward thinking team focused on enhancing both team and club member skill sets. His primary goal for the club is to teach web development in an interactive learning environment. As president, his primary duties involve, management of club meetings, communication with other campus leaders, teaching web development at meetings and organizing club events. Scott is a fourth year Graphic Communication student with a concentration in Web &amp; Digital Media. His areas of expertise include web development and project management. Contact Scott at: <a href="mailto:scottburns92@gmail.com">scottburns92@gmail.com</a> or visit his site at : <a href="http://scotttoshiroburns.com/">www.scotttoshiroburns.com</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="clear">&nbsp;</div>
+<div class="clear">&nbsp;</div>
+<p><img alt="" class="team" src="/sites/creativemediadev.com/files/kevin_0.jpg" style="float:left; font-family:source sans pro,sans-serif; font-size:16px; height:300px; width:300px" /></p>
+<h4>&nbsp;</h4>
+<h5>KEVIN KNOPP</h5>
+<h4>VICE PRESIDENT</h4>
+<p>Co-founder and club vp, Kevin is in charge of creating lesson plans and looking for new ways to improve the club. Kevin also helped design this website.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img alt="" class="team" src="/sites/creativemediadev.com/files/aly_1.jpg" style="float:left; font-family:source sans pro,sans-serif; font-size:16px" /></p>
+<h4>&nbsp;</h4>
+<h5>ALYSON FACHA</h5>
+<h4>Informative Content Director</h4>
+<p>As the Informative Content Director, Alyson Facha is in charge of keeping notes at all club meetings and disseminating the information to ensure the club is running as efficiently as possible. Facha also helps to complete any tasks cmd. may need in order to assist in the learning and marketing of the club. In addition to her gathering informative content, Facha writes for the club blog and keeps members up to date on social media sites by posting general information, promoting events, and uploading club photos and video. When not taking part in club activities, Facha, a fourth-year Graphic Communication student with a concentration in Web and Digital Media, is interested all things creative whether it be web development, design, or writing. &nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img alt="" class="team" src="/sites/creativemediadev.com/files/jackie.jpg" style="float:left; height:500px; width:500px" /></p>
+<h4>&nbsp;</h4>
+<h5>JACKIE HAYES</h5>
+<h4>TREASURER</h4>
+<p>As the club treasurer, Jackie is in charge of the club's financials and reimbursements. She is a web and digital media concentration and loves assisting and lecturing during club meetings. Jackie has had full-time Internships in places such as Buenos Aires, Argentina and in the Silicon Valley contributing in projects such as website redesign, graphics for iPhone applications, and creating mobile advertisements. She enjoys sharing her energy and love of web design with the team and most importantly, with club members. Feel free to contact Jackie at <a href="mailto:jhayes44@gmail.com">jhayes44@gmail.com</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5><img alt="" class="team" src="/sites/creativemediadev.com/files/connor_0.jpg" style="float:left; font-family:source sans pro,sans-serif; font-size:16px; height:448px; width:400px" />&nbsp;</h5>
+<h5>Connor NIELSEN</h5>
+<h4>CURRICULUM DEVELOPMENT</h4>
+<p>Everyone needs a starting point when it comes to coding. Connor strives to create engaging, challenging and relevant projects that make every meeting worthwhile. Previous positions include internships with Lawrence Berkeley National Labs as well as numerous bay area startups. &nbsp;Currently Connor works for Cal Poly ITS developing the Drupal enterprise system for the campus. Other relevant interests include JS, jQuery, AJAX, PHP, MySQL and other web languages.&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+								</div></div> <!-- /.section, /#content -->
+		</div>
+</div>
+  </body>
+</html>

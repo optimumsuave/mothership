@@ -1,0 +1,76 @@
+jQuery(document).ready(function($) {
+$(".person h3.judge").append('<span class="judgebadge">JUDGE</span>');
+
+Drupal.theme.mobileCheck = function(){
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+		return 1;
+	} else {
+		return 0;
+	}
+}
+
+$('#hackathon').countdown('2014/2/8 20:00:00', function(event) {
+    $(this).html(event.strftime('%H hrs %M min %S sec Remaining'));
+});
+
+$(".tricon").click(function(){
+	$(".header").toggleClass("open");
+});
+
+setTimeout(function(){
+	
+}, 100);
+$(".hero-rotator").cycle({
+	delay:-1000,
+	timeout: 6000,
+	speed:900,
+	random: 1,
+	slideResize: 0,
+	width: '100%',
+	height: '450px',
+	fit: 1,
+	after: function(){scrollPar();},	
+	before: function(){allOut();},	
+});
+/*$(".hero-rotator .hero").hide();
+$(".hero-rotator .hero").eq(0).show();
+$(".hero-rotator .hero").last().addClass("last");
+$(".hero-rotator .hero").eq(0).addClass("active");
+$(".hero-rotator .hero").eq(0).find(".hero-inner").css("opacity", 0);
+*/
+$(".hero-rotator .hero").eq(0).find(".hero-inner").animate({opacity:1}, 800, function(){
+});
+/*
+setInterval(function(){
+	if($(".hero-rotator .hero.active").hasClass("last")){
+		$(".hero-rotator .hero.active").fadeOut(400).removeClass("active");
+		$(".hero-rotator .hero").eq(0).fadeIn(400).addClass("active");
+	} else {
+		$(".hero-rotator .hero.active").fadeOut(400).removeClass("active").next().fadeIn(400).addClass("active");
+
+	}
+	//$(".hero-rotator .hero.active").removeClass("active");
+	//$(".hero-rotator .hero.active").next().fadeIn(400);
+
+}, 2000);*/
+
+	$(window).scroll(function(){
+		scrollPar();
+		var fromTop = $(document).scrollTop();
+        	$(".logo-wrap").toggleClass("sticky", fromTop > 44);
+        	//$(".abovecontent").toggleClass("stick", fromTop > 300);
+	});
+function allOut(){
+}
+function scrollPar(){
+	var documentScrollTop = $(document).scrollTop();
+       	$(".hero-inner h1").each(function(){
+       		var $this = $(this);
+       		$this.offset({ top: (documentScrollTop+300)});
+		$this.css("opacity", 1-(documentScrollTop/200))
+	});
+}
+Drupal.theme.scrollToContent = function(){
+	$("html,body").animate({scrollTop:500}, 800);
+};
+});

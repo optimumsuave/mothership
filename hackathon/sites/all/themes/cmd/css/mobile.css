@@ -1,0 +1,161 @@
+@media screen and (max-width:680px)
+{
+	body{
+	margin-top:-40px;
+	}
+	table{
+	width:100% !important;
+	}
+	.imgRight{
+		float:left;
+		position:relative;
+		padding-bottom:20px;	
+	}
+	h2{
+	padding-top:60px;
+	}
+	h1{
+	}
+	h4{
+	}
+	.abovecontent.stick ul{
+		display: none;
+	}
+	.person img{
+	display:block;
+	}
+	.person span{
+		clear:both;
+		float:left;
+	}
+	#hackathon-outer{
+		float:left;
+		width:100%;
+		text-align:center;
+		margin-bottom:20px;
+		margin-left:0px;
+	}
+	#hackathon-outer img{
+		width:100%!important;
+		height:auto!important;
+	}
+	#hackathon-outer p{
+		color:#fff;
+	}
+	.abovecontent {
+		margin-top:60px;
+	}
+	.abovecontent .shell img{
+		width:100% !important;
+		height:auto !important;
+		float:left;
+	}
+	.abovecontent .shell ul{
+	text-align:center;
+	margin-top:20px;
+	float:left;
+	width:100%;
+	}
+	.abovecontent .shell ul li{
+		float:left;
+		clear:both;
+		text-align:center;
+		padding-top:10px;
+	}
+	.abovecontent .shell ul li a{
+		font-size:2em;
+	}
+	.front .wrap .shell .content h1{
+	}
+	.front .wrap .shell .content p{
+		z-index:100;
+		position:relative;	
+		max-width:480px;
+		font-size:1em;
+	}
+	.teach{
+	margin-bottom:20px;
+	}
+	.teach h4{
+		font-size:1.2em;
+	}
+	.shell{
+		padding:10px;
+	}
+	.menu{
+		display:none;
+	}
+	.header.open .menu{
+		display:block;
+	}
+	.header.open #main-menu{
+		float:left;
+		width:100%;
+	}
+	.header.open #main-menu li{
+		width:100%;
+		clear:both;
+		float:none;
+		border:none !important;
+		line-height:2.2em !important;	
+		margin-left:0px;
+
+	}
+	.header.open #main-menu li a{
+		padding:0 10px;
+		color:#333;
+		font-size:2.6em;
+	}
+
+	.header.open .menu{
+
+	}
+
+	.tricon{
+		display:block;
+		line-height:45px;
+	}
+	.wrap{
+		margin-top:100px;
+	}
+	.logo{
+		width:80%;
+		padding-top:0px;
+		float:none;
+		line-height:50px;
+	}
+	.header{
+		height:60px;
+		overflow:hidden;
+	}
+	.team{
+		margin-bottom:0px;
+		float:none !important;
+	}
+	p{
+		
+	}
+
+}
+@media screen and (max-width:990px){
+	.view-hq .views-row{
+		width:40%;
+	}
+	.view-hq .views-row:nth-child(2n+0){
+		margin-right:0px;
+	}
+	.view-hq .views-row:nth-child(3n+0){
+		margin-right:10px;
+		clear:left;
+	}
+	.view-hq .views-row:nth-child(4n+0){
+		clear:none;
+	}
+}
+@media screen and (max-width:600px){
+	.view-hq .views-row{
+		width:auto;
+		clear:both;
+		margin-right:0 !important;
+	}
+}
