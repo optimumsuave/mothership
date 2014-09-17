@@ -1,5 +1,8 @@
 $( document ).ready(function() {
 
+	$(".home .bg").css("height", $(window).height() + 80 + "px");
+	$(".home").css("height", $(window).height() + "px");
+
 	setTimeout(function(){
 		//$(".logo").addClass("shine");
 		// setTimeout(function(){
