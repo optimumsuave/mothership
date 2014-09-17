@@ -553,7 +553,32 @@ section {
 }
 
 .footer{ 
-	min-height: 300px;
+	min-height: 180px;
 	background: #9d9d9d;
-	
+	.shell {
+		max-width: 800px;
+	}
+	.footer-inner {
+		padding-top: 40px;
+		color: #fff;
+		font-size: 0.8em;
+		.facebook, .twitter {
+
+
+
+			width: 48px;
+			height: 48px;
+
+			path {
+				@include transition(all 0.2s ease-in-out);
+			}
+
+			&:hover {
+				path {
+
+					fill: $blue;
+				}
+			}
+		}
+	}
 }
