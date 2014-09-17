@@ -204,7 +204,8 @@ a {
 /* line 3, ../scss/_nav.scss */
 .header-nav {
   position: fixed;
-  top: 0px;
+  top: -200px;
+  padding-top: 200px;
   height: 54px;
   background: white;
   width: 100%;
@@ -216,11 +217,11 @@ a {
   -webkit-box-shadow: rgba(30, 30, 30, 0.3) 0px 11px 10px;
   -moz-box-shadow: rgba(30, 30, 30, 0.3) 0px 11px 10px;
   box-shadow: rgba(30, 30, 30, 0.3) 0px 11px 10px; }
-  /* line 15, ../scss/_nav.scss */
+  /* line 16, ../scss/_nav.scss */
   .header-nav.hidden {
     top: -400px;
     opacity: 0; }
-  /* line 20, ../scss/_nav.scss */
+  /* line 21, ../scss/_nav.scss */
   .header-nav .mobileactionbar {
     line-height: 54px;
     padding-left: 10px;
@@ -230,19 +231,19 @@ a {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     opacity: 0; }
-    /* line 25, ../scss/_nav.scss */
+    /* line 26, ../scss/_nav.scss */
     .header-nav .mobileactionbar img {
       margin-top: 9px;
       height: 36px;
       width: auto; }
     @media (max-width: 540px) {
-      /* line 20, ../scss/_nav.scss */
+      /* line 21, ../scss/_nav.scss */
       .header-nav .mobileactionbar {
         display: block; } }
-    /* line 35, ../scss/_nav.scss */
+    /* line 36, ../scss/_nav.scss */
     .header-nav .mobileactionbar.shine {
       opacity: 1; }
-  /* line 41, ../scss/_nav.scss */
+  /* line 42, ../scss/_nav.scss */
   .header-nav ul {
     margin: 0 auto;
     display: block;
@@ -253,14 +254,14 @@ a {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     @media (max-width: 540px) {
-      /* line 41, ../scss/_nav.scss */
+      /* line 42, ../scss/_nav.scss */
       .header-nav ul {
         display: none; } }
     @media (max-width: 767px) {
-      /* line 41, ../scss/_nav.scss */
+      /* line 42, ../scss/_nav.scss */
       .header-nav ul {
         display: none; } }
-    /* line 55, ../scss/_nav.scss */
+    /* line 56, ../scss/_nav.scss */
     .header-nav ul li {
       display: inline-block;
       vertical-align: bottom;
@@ -272,7 +273,7 @@ a {
       -moz-transition: all 0.1s ease-in-out;
       -o-transition: all 0.1s ease-in-out;
       transition: all 0.1s ease-in-out; }
-      /* line 64, ../scss/_nav.scss */
+      /* line 65, ../scss/_nav.scss */
       .header-nav ul li a {
         color: #555;
         text-decoration: none;
@@ -287,13 +288,13 @@ a {
         -moz-transition: all 0.1s ease-in-out;
         -o-transition: all 0.1s ease-in-out;
         transition: all 0.1s ease-in-out; }
-      /* line 90, ../scss/_nav.scss */
+      /* line 91, ../scss/_nav.scss */
       .header-nav ul li:hover {
         background: #00a9be; }
-        /* line 93, ../scss/_nav.scss */
+        /* line 94, ../scss/_nav.scss */
         .header-nav ul li:hover a {
           color: white; }
-      /* line 98, ../scss/_nav.scss */
+      /* line 99, ../scss/_nav.scss */
       .header-nav ul li.spacer {
         width: 40%;
         height: 1px; }
@@ -529,7 +530,7 @@ a {
 /* line 280, ../scss/_body.scss */
 section {
   width: 100%;
-  height: 800px;
+  min-height: 600px;
   background: #eeeeee;
   padding-top: 80px; }
   /* line 285, ../scss/_body.scss */
@@ -645,3 +646,7 @@ section {
     .team .team-box .team-info p {
       width: 90%;
       font-family: 'Source Sans Pro'; }
+
+/* line 417, ../scss/_body.scss */
+.events {
+  background: url("../images/code.jpg") no-repeat center center fixed; }

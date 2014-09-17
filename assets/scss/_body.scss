@@ -279,7 +279,7 @@
 
 section {
 	width: 100%;
-	height: 800px;
+	min-height: 600px;
 	background: #eeeeee;
 	padding-top: 80px;
 	&.blue {
@@ -411,5 +411,12 @@ section {
 				font-family: 'Source Sans Pro';
 			}
 		}
+	}
+}
+
+.events {
+	background: url('../images/code.jpg') no-repeat center center fixed;
+	.events-top {
+
 	}
 }
