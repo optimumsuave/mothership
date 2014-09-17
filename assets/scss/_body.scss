@@ -507,6 +507,14 @@ section {
 			p {
 				width: 90%;
 				font-family: 'Source Sans Pro';
+				a {
+					color:$blue;
+					text-decoration: none;
+					@include transition(color .15s ease-in-out);
+					&:hover {
+						color: #FFF;
+					}
+				}
 			}
 		}
 	}

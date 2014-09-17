@@ -741,22 +741,33 @@ section {
     .team .team-box .team-info p {
       width: 90%;
       font-family: 'Source Sans Pro'; }
+      /* line 510, ../scss/_body.scss */
+      .team .team-box .team-info p a {
+        color: #00a9be;
+        text-decoration: none;
+        -webkit-transition: color 0.15s ease-in-out;
+        -moz-transition: color 0.15s ease-in-out;
+        -o-transition: color 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out; }
+        /* line 514, ../scss/_body.scss */
+        .team .team-box .team-info p a:hover {
+          color: #FFF; }
 
-/* line 515, ../scss/_body.scss */
+/* line 523, ../scss/_body.scss */
 .events {
   background: url("../images/IMAG0227.jpg") no-repeat center center fixed;
   padding-top: 80px; }
-  /* line 518, ../scss/_body.scss */
+  /* line 526, ../scss/_body.scss */
   .events .shell {
     max-width: 800px; }
-  /* line 521, ../scss/_body.scss */
+  /* line 529, ../scss/_body.scss */
   .events .events-top {
     padding-top: 40px; }
-    /* line 523, ../scss/_body.scss */
+    /* line 531, ../scss/_body.scss */
     .events .events-top h1 {
       color: #fff;
       font-size: 3em; }
-  /* line 529, ../scss/_body.scss */
+  /* line 537, ../scss/_body.scss */
   .events .events-box {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -764,11 +775,11 @@ section {
     margin-top: 20px;
     float: left;
     clear: both; }
-    /* line 536, ../scss/_body.scss */
+    /* line 544, ../scss/_body.scss */
     .events .events-box p {
       font-family: 'Source Sans Pro'; }
 
-/* line 547, ../scss/_body.scss */
+/* line 555, ../scss/_body.scss */
 .footer {
   min-height: 400px;
   background: #9d9d9d; }
