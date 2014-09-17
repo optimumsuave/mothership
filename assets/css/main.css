@@ -646,7 +646,18 @@ section {
     .team .team-box .team-info p {
       width: 90%;
       font-family: 'Source Sans Pro'; }
+      /* line 412, ../scss/_body.scss */
+      .team .team-box .team-info p a {
+        color: #00a9be;
+        text-decoration: none;
+        -webkit-transition: color 0.15s ease-in-out;
+        -moz-transition: color 0.15s ease-in-out;
+        -o-transition: color 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out; }
+        /* line 416, ../scss/_body.scss */
+        .team .team-box .team-info p a:hover {
+          color: #FFF; }
 
-/* line 417, ../scss/_body.scss */
+/* line 425, ../scss/_body.scss */
 .events {
   background: url("../images/IMAG0227.jpg") no-repeat center center fixed; }
