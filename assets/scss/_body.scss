@@ -322,6 +322,7 @@ section {
 
 .home {
 	background: url('../images/IMAG0626.jpg') no-repeat center center fixed;
+	background-size: cover;
 	padding-top: 80px;
 
 	@include breakpoint(mobile) {
