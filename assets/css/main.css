@@ -758,4 +758,17 @@ section {
       font-size: 3em; }
   /* line 529, ../scss/_body.scss */
   .events .events-box {
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+    margin-top: 20px;
+    float: left;
+    clear: both; }
+    /* line 536, ../scss/_body.scss */
+    .events .events-box p {
+      font-family: 'Source Sans Pro'; }
+
+/* line 547, ../scss/_body.scss */
+.footer {
+  min-height: 400px;
+  background: #9d9d9d; }
