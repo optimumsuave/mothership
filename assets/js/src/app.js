@@ -35,13 +35,16 @@ $( document ).ready(function() {
 	var $workshops = $("#workshops").offset().top;
 	var $events = $("#events").offset().top;
 	var $home = $("#home").offset().top;
+	var $headernav = $(".header-nav");
 
     $(document).scroll(function() {
         if (300 <= $(document).scrollTop()) {
             $menu.addClass("shine");
+            $headernav.addClass("shine");
             $('body').addClass("bg");
         } else {
         	$menu.removeClass("shine");
+        	$headernav.removeClass("shine");
         }
     });
 

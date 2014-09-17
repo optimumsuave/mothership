@@ -293,8 +293,11 @@ section {
 			width: 100%;
 		}
 		.b-50{
-			width: 100%;
 			width: 50%;
+
+			@include breakpoint(mobile) {
+				width: 100%;
+			}
 		}
 		.mw-700 {
 			max-width: 700px;
@@ -320,6 +323,10 @@ section {
 .home {
 	background: url('../images/IMAG0626.jpg') no-repeat center center fixed;
 	padding-top: 80px;
+
+	@include breakpoint(mobile) {
+		padding-top: 20px;
+	}
 	.bg {
 		background: rgba(0,0,0,1);
 		@include transition(all 2s ease-in-out);
@@ -347,7 +354,7 @@ section {
 		@include transition(all 1s ease-in-out);
 
 		@include breakpoint(mobile) {
-			padding-top: 80px;
+			padding-top: 0px;
 		}
 
 		img {
@@ -446,6 +453,22 @@ section {
 			width: 100%;
 			height:auto;
 		}
+
+
+		.desktop {
+			display: block;
+		}
+		.mobile {
+			display: none;
+		}
+		@include breakpoint(mobile) {
+			.desktop {
+				display: none;
+			}
+			.mobile {
+				display: block;
+			}
+		}
 	}
 
 	.tutors-tag {
@@ -478,6 +501,14 @@ section {
 			margin-left:5%;
 			height: auto;
 		}
+
+		@include breakpoint(mobile) {
+			width: 100%;
+			float: left;
+			clear: both;
+		}
+
+		
 	}
 	.soon {
 		color: #fff;

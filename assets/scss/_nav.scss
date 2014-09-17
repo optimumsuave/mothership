@@ -12,7 +12,15 @@
 	@include transition(all 0.5s ease-in-out);
 
 	@include box-shadow(rgba(30, 30, 30, 0.3) 0px 11px 10px);
-  
+  	
+	@include breakpoint(mobile) {
+		height: 0px;
+		&.shine {
+			height: 54px !important;
+		}
+		
+	}
+
 	&.hidden {
 		top: -400px;
 		opacity: 0;
