@@ -691,13 +691,6 @@ section .shell .b-right {
 .home {
   background: url("../images/IMAG0626.jpg") no-repeat center center fixed;
   background-size: cover;
-  padding-top: 80px;
-}
-@media (max-width: 540px) {
-  /* line 319, ../scss/_body.scss */
-  .home {
-    padding-top: 20px;
-  }
 }
 /* line 327, ../scss/_body.scss */
 .home .bg {
@@ -720,7 +713,7 @@ section .shell .b-right {
 .home .logo {
   width: 100%;
   max-width: 490px;
-  padding-top: 120px;
+  padding-top: 180px;
   display: block;
   margin: 0 auto;
   position: relative;
@@ -733,7 +726,7 @@ section .shell .b-right {
 @media (max-width: 540px) {
   /* line 343, ../scss/_body.scss */
   .home .logo {
-    padding-top: 0px;
+    padding-top: 20px;
   }
 }
 /* line 357, ../scss/_body.scss */

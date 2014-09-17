@@ -1,10 +1,13 @@
 $( document ).ready(function() {
 
 	SCROLL_SPEED = 1000;
-
-	$(".home .bg").css("height", $(window).height() + 80 + "px");
-	$(".home, .tutors, .team").css("height", $(window).height() + "px");
-
+	function setBoxHeight(){
+		
+		$(".home, .tutors, .team").css("height", $(window).height() + "px");
+		$(".home .bg").css("height", $(window).height() + "px");
+	}
+	setBoxHeight();
+	
 	$(".menu li").click(function(){
 	
 		$.smoothScroll({
@@ -46,6 +49,11 @@ $( document ).ready(function() {
         	$menu.removeClass("shine");
         	$headernav.removeClass("shine");
         }
+    });
+
+    $(window).on('resize', function(){
+    	setBoxHeight();
+
     });
 
 });
