@@ -343,7 +343,7 @@ section {
 		position: absolute;
 
 		&.shine {
-			@include transition(all 2s ease-in-out);
+			@include transition(background 2s ease-in-out);
 			background: rgba(0,0,0,0.6);
 		}
 
