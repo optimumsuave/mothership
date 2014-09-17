@@ -718,10 +718,10 @@ section .shell .b-right {
 }
 /* line 345, ../scss/_body.scss */
 .home .bg.shine {
-  -moz-transition: all 2s ease-in-out;
-  -o-transition: all 2s ease-in-out;
-  -webkit-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
+  -moz-transition: background 2s ease-in-out;
+  -o-transition: background 2s ease-in-out;
+  -webkit-transition: background 2s ease-in-out;
+  transition: background 2s ease-in-out;
   background: rgba(0, 0, 0, 0.6);
 }
 /* line 353, ../scss/_body.scss */
