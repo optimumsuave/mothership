@@ -641,3 +641,7 @@ section {
       margin-right: 20px;
       border-radius: 50px;
       margin-bottom: 200px; }
+    /* line 409, ../scss/_body.scss */
+    .team .team-box .team-info p {
+      width: 90%;
+      font-family: 'Source Sans Pro'; }
