@@ -4,9 +4,6 @@
 	max-width: 940px;
 	margin: 0 auto;
 
-	@include breakpoint(mobile) {
-		padding:0 10px;
-	}
 
 }
 
@@ -278,7 +275,6 @@
 
 
 section {
-	width: 100%;
 	min-height: 600px;
 	background: #eeeeee;
 	&.blue {
@@ -330,7 +326,7 @@ section {
 	.bg {
 		background: rgba(0,0,0,1);
 		@include transition(all 2s ease-in-out);
-		min-height: 680px;
+		min-height: 600px;
 		top: 0px;
 		z-index: 0;
 		width: 100%;
@@ -462,6 +458,11 @@ section {
 			display: none;
 		}
 		@include breakpoint(mobile) {
+			img {
+				width: 96%;
+				padding:0 2%;
+				height:auto;
+			}
 			.desktop {
 				display: none;
 			}
@@ -503,9 +504,7 @@ section {
 		}
 
 		@include breakpoint(mobile) {
-			width: 100%;
-			float: left;
-			clear: both;
+			display: none;
 		}
 
 		
@@ -525,6 +524,10 @@ section {
 .team {
 	background: #222222;
 	padding-top: 80px;
+	padding-left: 20px;
+	@include breakpoint(mobile) {
+		min-height: 740px; 
+	}
 	.shell {
 		max-width: 800px;
 	}
@@ -532,6 +535,9 @@ section {
 		width: 100%;
 		float: left;
 		padding-top: 150px;
+		@include breakpoint(mobile) {
+			padding-top: 40px;
+		}
 		h1 {
 			font-size: 3em;
 			float: left;
@@ -545,6 +551,7 @@ section {
 		width: 50%;
 		margin: 0 auto;
 		color: #fff;
+
 		h2 {
 			font-size: 1.4em;
 		}
@@ -559,12 +566,25 @@ section {
 			margin-right: 20px;
 			border-radius: 50px;
 			margin-bottom: 200px;
+			@include breakpoint(mobile) {
+				margin-bottom: 0px;
+			}
+		}
+
+		@include breakpoint(mobile) {
+			float: left;
+			width: 100%;
 		}
 
 		.team-info {
 			p {
 				width: 90%;
 				font-family: 'Source Sans Pro';
+				@include breakpoint(mobile) {
+					float: left; 
+					clear:both;
+					padding-bottom:50px;
+				}
 				a {
 					color:$blue;
 					text-decoration: none;
@@ -580,6 +600,9 @@ section {
 
 .events {
 	background: url('../images/IMAG0227.jpg') no-repeat center center fixed;
+	@include breakpoint(mobile) {
+		background: #000000;
+	}
 	padding-top: 80px;
 	.shell {
 		max-width: 800px;
@@ -596,9 +619,18 @@ section {
 		background: rgba(0,0,0,0.5);
 		padding: 20px;
 		color: #fff;
-		margin-top: 20px;
+		margin-top: 20px; 
 		float: left;
 		clear: both;
+		@include breakpoint(mobile) {
+			padding: 2%;
+			width: 96%;
+		}
+		img {
+			width: 100%;
+			height: auto;
+			max-width: 415px;
+		}
 		p {
 			font-family: 'Source Sans Pro';
 		}
