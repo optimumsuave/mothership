@@ -117,7 +117,7 @@ a {
     .header .header-top .logo {
       width: 100%;
       max-width: 490px;
-      padding-top: 200px;
+      padding-top: 120px;
       display: block;
       margin: 0 auto;
       -webkit-transition: all 1s ease-in-out;
@@ -505,14 +505,101 @@ a {
 .about .hero {
   max-height: 170px; }
 
-/* line 251, ../scss/_body.scss */
+/* line 254, ../scss/_body.scss */
+.tagbanners {
+  margin-top: 50px; }
+  /* line 258, ../scss/_body.scss */
+  .tagbanners .banner {
+    width: 32%;
+    margin: 0 auto;
+    height: 80px;
+    float: left;
+    border-left: 1px solid rgba(255, 255, 255, 0.4); }
+    /* line 264, ../scss/_body.scss */
+    .tagbanners .banner:first-child {
+      border-left: 0; }
+    /* line 268, ../scss/_body.scss */
+    .tagbanners .banner .banner-box {
+      width: 70%;
+      padding: 20px 15%;
+      height: 40px;
+      text-align: center;
+      color: #FFFFFF; }
+
+/* line 280, ../scss/_body.scss */
 section {
   width: 100%;
   height: 800px;
-  background: #eeeeee; }
-  /* line 256, ../scss/_body.scss */
+  background: #eeeeee;
+  padding-top: 80px; }
+  /* line 285, ../scss/_body.scss */
   section.blue {
     background: #00a9be; }
-  /* line 260, ../scss/_body.scss */
+  /* line 289, ../scss/_body.scss */
   section .shell {
-    width: 920px; }
+    width: 100%;
+    max-width: 920px; }
+    /* line 293, ../scss/_body.scss */
+    section .shell h1 {
+      font-size: 2em; }
+    /* line 296, ../scss/_body.scss */
+    section .shell .b-100 {
+      width: 100%; }
+    /* line 299, ../scss/_body.scss */
+    section .shell .b-50 {
+      width: 100%;
+      width: 50%; }
+    /* line 303, ../scss/_body.scss */
+    section .shell .mw-700 {
+      max-width: 700px; }
+    /* line 306, ../scss/_body.scss */
+    section .shell .ta-left {
+      text-align: left; }
+    /* line 309, ../scss/_body.scss */
+    section .shell .center {
+      margin: 0 auto; }
+    /* line 312, ../scss/_body.scss */
+    section .shell .b-left {
+      float: left; }
+    /* line 316, ../scss/_body.scss */
+    section .shell .b-right {
+      float: right; }
+
+/* line 324, ../scss/_body.scss */
+.tutors {
+  padding-top: 140px; }
+  /* line 326, ../scss/_body.scss */
+  .tutors .tutors-width {
+    max-width: 800px; }
+  /* line 330, ../scss/_body.scss */
+  .tutors .tutors-top-banner {
+    text-align: center; }
+    /* line 332, ../scss/_body.scss */
+    .tutors .tutors-top-banner img {
+      width: 100%;
+      height: auto; }
+  /* line 338, ../scss/_body.scss */
+  .tutors .tutors-tag {
+    padding-top: 60px;
+    text-align: left;
+    margin: 0 auto; }
+    /* line 343, ../scss/_body.scss */
+    .tutors .tutors-tag h1 {
+      color: #fff; }
+  /* line 347, ../scss/_body.scss */
+  .tutors .tutors-mid {
+    margin: 0 auto;
+    padding-top: 40px; }
+    /* line 350, ../scss/_body.scss */
+    .tutors .tutors-mid p {
+      margin-bottom: 20px;
+      margin-top: 0;
+      width: 95%;
+      line-height: 1.5em;
+      font-family: 'Source Sans Pro';
+      font-size: 1.2em; }
+  /* line 360, ../scss/_body.scss */
+  .tutors .tutors-pic img {
+    width: 95%;
+    margin-left: 5%;
+    height: auto; }

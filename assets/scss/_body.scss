@@ -248,18 +248,120 @@
 	max-height: 170px;
 }
 
+
+
+
+.tagbanners {
+
+	margin-top: 50px;
+
+	.banner {
+		width: 32%;
+		margin: 0 auto;
+		height: 80px;
+		float: left;
+		border-left: 1px solid rgba(255,255,255,0.4);
+		&:first-child {
+			border-left: 0;
+		}
+
+		.banner-box {
+			width: 70%;
+			padding: 20px 15%;
+			height: 40px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+
+	}
+}
+
+
 section {
 	width: 100%;
 	height: 800px;
-
 	background: #eeeeee;
+	padding-top: 80px;
 	&.blue {
 		background: $blue;
 	}
 
 	.shell {
-		width: 920px;
+		width: 100%;
+		max-width: 920px;
+
+		h1 {
+			font-size: 2em;
+		}
+		.b-100{
+			width: 100%;
+		}
+		.b-50{
+			width: 100%;
+			width: 50%;
+		}
+		.mw-700 {
+			max-width: 700px;
+		}
+		.ta-left {
+			text-align: left;
+		}
+		.center {
+			margin: 0 auto;
+		}
+		.b-left {
+			float: left;
+		}
+
+		.b-right {
+			float: right;
+		}
+
 	}
 	
 }
 
+.tutors {
+	padding-top: 140px;
+	.tutors-width {
+		max-width: 800px;
+	}
+
+	.tutors-top-banner {
+		text-align: center;
+		img {
+			width: 100%;
+			height:auto;
+		}
+	}
+
+	.tutors-tag {
+		padding-top: 60px;
+		text-align: left;
+		margin: 0 auto;
+
+		h1 {
+			color: #fff;
+		}
+	}
+	.tutors-mid {
+		margin: 0 auto;
+		padding-top: 40px;
+		p {
+			margin-bottom: 20px;
+			margin-top: 0;
+			width: 95%;
+			line-height: 1.5em;
+			font-family: 'Source Sans Pro';
+			font-size: 1.2em;
+		}
+	}
+	.tutors-pic {
+		img {
+			width: 95%;
+			margin-left:5%;
+			height: auto;
+		}
+	}
+
+}
