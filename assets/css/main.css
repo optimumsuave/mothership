@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,100);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic);
-/* line 5, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,45 +22,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../lib/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -214,7 +214,7 @@ a:hover {
 /* line 79, ../scss/_header.scss */
 .header .header-top .tagline h1 span {
   font-family: 'Source Sans Pro', sans-serif;
-  background: #00a9be;
+  background: #00A9BE;
   padding: 1px 4px;
   margin: 0px 5px;
   font-size: 0.9em;
@@ -228,7 +228,7 @@ a:hover {
 }
 /* line 102, ../scss/_header.scss */
 .header .header-bottom {
-  background: #00a9be;
+  background: #00A9BE;
   height: 100px;
   bottom: 0px;
   position: absolute;
@@ -356,7 +356,7 @@ a:hover {
 }
 /* line 99, ../scss/_nav.scss */
 .header-nav ul li:hover {
-  background: #00a9be;
+  background: #00A9BE;
 }
 /* line 102, ../scss/_nav.scss */
 .header-nav ul li:hover a {
@@ -661,7 +661,7 @@ section {
 }
 /* line 290, ../scss/_body.scss */
 section.blue {
-  background: #00a9be;
+  background: #00A9BE;
 }
 /* line 294, ../scss/_body.scss */
 section .shell {
@@ -806,7 +806,7 @@ section .shell .b-right {
 /* line 413, ../scss/_body.scss */
 .home .tagline h1 span {
   font-family: 'Source Sans Pro', sans-serif;
-  background: #00a9be;
+  background: #00A9BE;
   padding: 1px 4px;
   margin: 0px 5px;
   font-size: 0.9em;
@@ -936,7 +936,7 @@ section .shell .b-right {
 /* line 530, ../scss/_body.scss */
 .tutors .soon {
   color: #fff;
-  margin-top: 50px;
+  margin-top: 20px;
   border: #fff solid 2px;
   padding: 10px 20px;
   float: left;
@@ -948,7 +948,6 @@ section .shell .b-right {
 .team {
   background: #222222;
   padding-top: 80px;
-  padding-left: 20px;
 }
 @media (max-width: 540px) {
   /* line 544, ../scss/_body.scss */
@@ -957,23 +956,23 @@ section .shell .b-right {
     min-height: 740px;
   }
 }
-/* line 552, ../scss/_body.scss */
+/* line 551, ../scss/_body.scss */
 .team .shell {
   max-width: 800px;
 }
-/* line 555, ../scss/_body.scss */
+/* line 554, ../scss/_body.scss */
 .team .team-top {
   width: 100%;
   float: left;
   padding-top: 150px;
 }
 @media (max-width: 540px) {
-  /* line 555, ../scss/_body.scss */
+  /* line 554, ../scss/_body.scss */
   .team .team-top {
     padding-top: 40px;
   }
 }
-/* line 562, ../scss/_body.scss */
+/* line 561, ../scss/_body.scss */
 .team .team-top h1 {
   font-size: 3em;
   float: left;
@@ -981,23 +980,23 @@ section .shell .b-right {
   clear: both;
   color: #fff;
 }
-/* line 570, ../scss/_body.scss */
+/* line 569, ../scss/_body.scss */
 .team .team-box {
   float: left;
   width: 50%;
   margin: 0 auto;
   color: #fff;
 }
-/* line 576, ../scss/_body.scss */
+/* line 575, ../scss/_body.scss */
 .team .team-box h2 {
   font-size: 1.4em;
 }
-/* line 579, ../scss/_body.scss */
+/* line 578, ../scss/_body.scss */
 .team .team-box h3 {
   font-size: 0.9em;
-  color: #00a9be;
+  color: #00A9BE;
 }
-/* line 583, ../scss/_body.scss */
+/* line 582, ../scss/_body.scss */
 .team .team-box img {
   width: 100px;
   height: auto;
@@ -1007,70 +1006,70 @@ section .shell .b-right {
   margin-bottom: 200px;
 }
 @media (max-width: 540px) {
-  /* line 583, ../scss/_body.scss */
+  /* line 582, ../scss/_body.scss */
   .team .team-box img {
     margin-bottom: 0px;
   }
 }
 @media (max-width: 540px) {
-  /* line 570, ../scss/_body.scss */
+  /* line 569, ../scss/_body.scss */
   .team .team-box {
     float: left;
     width: 100%;
   }
 }
-/* line 601, ../scss/_body.scss */
+/* line 600, ../scss/_body.scss */
 .team .team-box .team-info p {
   width: 90%;
   font-family: 'Source Sans Pro';
 }
 @media (max-width: 540px) {
-  /* line 601, ../scss/_body.scss */
+  /* line 600, ../scss/_body.scss */
   .team .team-box .team-info p {
     float: left;
     clear: both;
     padding-bottom: 50px;
   }
 }
-/* line 609, ../scss/_body.scss */
+/* line 608, ../scss/_body.scss */
 .team .team-box .team-info p a {
-  color: #00a9be;
+  color: #00A9BE;
   text-decoration: none;
   -moz-transition: color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out;
   -webkit-transition: color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out;
 }
-/* line 613, ../scss/_body.scss */
+/* line 612, ../scss/_body.scss */
 .team .team-box .team-info p a:hover {
   color: #FFF;
 }
 
-/* line 622, ../scss/_body.scss */
+/* line 621, ../scss/_body.scss */
 .events {
   background: url("../images/IMAG0227.jpg") no-repeat center center fixed;
   padding-top: 80px;
 }
 @media (max-width: 540px) {
-  /* line 622, ../scss/_body.scss */
+  /* line 621, ../scss/_body.scss */
   .events {
     background: #000000;
   }
 }
-/* line 628, ../scss/_body.scss */
+/* line 627, ../scss/_body.scss */
 .events .shell {
   max-width: 800px;
 }
-/* line 631, ../scss/_body.scss */
+/* line 630, ../scss/_body.scss */
 .events .events-top {
   padding-top: 40px;
 }
-/* line 633, ../scss/_body.scss */
+/* line 632, ../scss/_body.scss */
 .events .events-top h1 {
   color: #fff;
   font-size: 3em;
 }
-/* line 639, ../scss/_body.scss */
+/* line 638, ../scss/_body.scss */
 .events .events-box {
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -1080,51 +1079,51 @@ section .shell .b-right {
   clear: both;
 }
 @media (max-width: 540px) {
-  /* line 639, ../scss/_body.scss */
+  /* line 638, ../scss/_body.scss */
   .events .events-box {
     padding: 2%;
     width: 96%;
   }
 }
-/* line 650, ../scss/_body.scss */
+/* line 649, ../scss/_body.scss */
 .events .events-box img {
   width: 100%;
   height: auto;
   max-width: 415px;
 }
-/* line 655, ../scss/_body.scss */
+/* line 654, ../scss/_body.scss */
 .events .events-box p {
   font-family: 'Source Sans Pro';
 }
 
-/* line 666, ../scss/_body.scss */
+/* line 665, ../scss/_body.scss */
 .footer {
   min-height: 180px;
   background: #9d9d9d;
 }
-/* line 669, ../scss/_body.scss */
+/* line 668, ../scss/_body.scss */
 .footer .shell {
   max-width: 800px;
 }
-/* line 672, ../scss/_body.scss */
+/* line 671, ../scss/_body.scss */
 .footer .footer-inner {
   padding-top: 40px;
   color: #fff;
   font-size: 0.8em;
 }
-/* line 676, ../scss/_body.scss */
+/* line 675, ../scss/_body.scss */
 .footer .footer-inner .facebook, .footer .footer-inner .twitter {
   width: 48px;
   height: 48px;
 }
-/* line 683, ../scss/_body.scss */
+/* line 682, ../scss/_body.scss */
 .footer .footer-inner .facebook path, .footer .footer-inner .twitter path {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 688, ../scss/_body.scss */
+/* line 687, ../scss/_body.scss */
 .footer .footer-inner .facebook:hover path, .footer .footer-inner .twitter:hover path {
-  fill: #00a9be;
+  fill: #00A9BE;
 }

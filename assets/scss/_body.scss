@@ -529,7 +529,7 @@ section {
 	}
 	.soon {
 		color: #fff;
-		margin-top: 50px;
+		margin-top: 20px;
 		border: #fff solid 2px;
 		padding: 10px 20px;
 		float: left;
@@ -544,7 +544,6 @@ section {
 .team {
 	background: #222222;
 	padding-top: 80px;
-	padding-left: 20px;
 	@include breakpoint(mobile) {
 		padding-left: 0;
 		min-height: 740px; 
