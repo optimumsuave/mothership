@@ -2,8 +2,8 @@ $( document ).ready(function() {
 
 	SCROLL_SPEED = 1000;
 
-	$(".home .bg").css("height", $(window).height() + 80 + "px");
-	$(".home, .tutors, .team").css("height", $(window).height() + "px");
+	$(".home .bg").css("min-height", $(window).height() + 80 + "px");
+	$(".home, .tutors, .team").css("min-height", $(window).height() + "px");
 
 	$(".menu li").click(function(){
 	

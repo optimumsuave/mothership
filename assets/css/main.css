@@ -56,7 +56,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 12, ../scss/main.scss */
+/* line 13, ../scss/main.scss */
 body {
   font-family: Montserrat;
   background: #ffffff;
@@ -73,21 +73,21 @@ body {
   -o-transition: background 1s ease-in-out;
   transition: background 1s ease-in-out; }
 
-/* line 40, ../scss/main.scss */
+/* line 41, ../scss/main.scss */
 p {
   line-height: 1.4em;
   font-weight: 300;
   font-size: 0.9em;
   margin-top: 10px; }
 
-/* line 47, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 a {
   color: #888888;
   text-decoration: underline; }
-  /* line 52, ../scss/main.scss */
+  /* line 53, ../scss/main.scss */
   a:visited {
     color: #888888; }
-  /* line 56, ../scss/main.scss */
+  /* line 57, ../scss/main.scss */
   a:hover {
     color: #000000;
     text-decoration: none; }
@@ -771,7 +771,7 @@ section {
   .team .team-top {
     width: 100%;
     float: left;
-    padding-top: 150px; }
+    padding-top: 40px; }
     @media (max-width: 540px) {
       /* line 534, ../scss/_body.scss */
       .team .team-top {
@@ -784,19 +784,23 @@ section {
       clear: both;
       color: #fff; }
   /* line 549, ../scss/_body.scss */
+  .team .team-row {
+    width: 100%;
+    display: inline-block; }
+  /* line 554, ../scss/_body.scss */
   .team .team-box {
     float: left;
     width: 50%;
     margin: 0 auto;
     color: #fff; }
-    /* line 555, ../scss/_body.scss */
+    /* line 560, ../scss/_body.scss */
     .team .team-box h2 {
       font-size: 1.4em; }
-    /* line 558, ../scss/_body.scss */
+    /* line 563, ../scss/_body.scss */
     .team .team-box h3 {
       font-size: 0.9em;
       color: #00a9be; }
-    /* line 562, ../scss/_body.scss */
+    /* line 567, ../scss/_body.scss */
     .team .team-box img {
       width: 100px;
       height: auto;
@@ -805,25 +809,25 @@ section {
       border-radius: 50px;
       margin-bottom: 200px; }
       @media (max-width: 540px) {
-        /* line 562, ../scss/_body.scss */
+        /* line 567, ../scss/_body.scss */
         .team .team-box img {
           margin-bottom: 0px; } }
     @media (max-width: 540px) {
-      /* line 549, ../scss/_body.scss */
+      /* line 554, ../scss/_body.scss */
       .team .team-box {
         float: left;
         width: 100%; } }
-    /* line 580, ../scss/_body.scss */
+    /* line 585, ../scss/_body.scss */
     .team .team-box .team-info p {
       width: 90%;
       font-family: 'Source Sans Pro'; }
       @media (max-width: 540px) {
-        /* line 580, ../scss/_body.scss */
+        /* line 585, ../scss/_body.scss */
         .team .team-box .team-info p {
           float: left;
           clear: both;
           padding-bottom: 50px; } }
-      /* line 588, ../scss/_body.scss */
+      /* line 593, ../scss/_body.scss */
       .team .team-box .team-info p a {
         color: #00a9be;
         text-decoration: none;
@@ -831,29 +835,29 @@ section {
         -moz-transition: color 0.15s ease-in-out;
         -o-transition: color 0.15s ease-in-out;
         transition: color 0.15s ease-in-out; }
-        /* line 592, ../scss/_body.scss */
+        /* line 597, ../scss/_body.scss */
         .team .team-box .team-info p a:hover {
           color: #FFF; }
 
-/* line 601, ../scss/_body.scss */
+/* line 606, ../scss/_body.scss */
 .events {
   background: url("../images/IMAG0227.jpg") no-repeat center center fixed;
   padding-top: 80px; }
   @media (max-width: 540px) {
-    /* line 601, ../scss/_body.scss */
+    /* line 606, ../scss/_body.scss */
     .events {
       background: #000000; } }
-  /* line 607, ../scss/_body.scss */
+  /* line 612, ../scss/_body.scss */
   .events .shell {
     max-width: 800px; }
-  /* line 610, ../scss/_body.scss */
+  /* line 615, ../scss/_body.scss */
   .events .events-top {
     padding-top: 40px; }
-    /* line 612, ../scss/_body.scss */
+    /* line 617, ../scss/_body.scss */
     .events .events-top h1 {
       color: #fff;
       font-size: 3em; }
-  /* line 618, ../scss/_body.scss */
+  /* line 623, ../scss/_body.scss */
   .events .events-box {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -862,41 +866,41 @@ section {
     float: left;
     clear: both; }
     @media (max-width: 540px) {
-      /* line 618, ../scss/_body.scss */
+      /* line 623, ../scss/_body.scss */
       .events .events-box {
         padding: 2%;
         width: 96%; } }
-    /* line 629, ../scss/_body.scss */
+    /* line 634, ../scss/_body.scss */
     .events .events-box img {
       width: 100%;
       height: auto;
       max-width: 415px; }
-    /* line 634, ../scss/_body.scss */
+    /* line 639, ../scss/_body.scss */
     .events .events-box p {
       font-family: 'Source Sans Pro'; }
 
-/* line 645, ../scss/_body.scss */
+/* line 650, ../scss/_body.scss */
 .footer {
   min-height: 180px;
   background: #9d9d9d; }
-  /* line 648, ../scss/_body.scss */
+  /* line 653, ../scss/_body.scss */
   .footer .shell {
     max-width: 800px; }
-  /* line 651, ../scss/_body.scss */
+  /* line 656, ../scss/_body.scss */
   .footer .footer-inner {
     padding-top: 40px;
     color: #fff;
     font-size: 0.8em; }
-    /* line 655, ../scss/_body.scss */
+    /* line 660, ../scss/_body.scss */
     .footer .footer-inner .facebook, .footer .footer-inner .twitter {
       width: 48px;
       height: 48px; }
-      /* line 662, ../scss/_body.scss */
+      /* line 667, ../scss/_body.scss */
       .footer .footer-inner .facebook path, .footer .footer-inner .twitter path {
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
-      /* line 667, ../scss/_body.scss */
+      /* line 672, ../scss/_body.scss */
       .footer .footer-inner .facebook:hover path, .footer .footer-inner .twitter:hover path {
         fill: #00a9be; }
