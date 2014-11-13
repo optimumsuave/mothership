@@ -1,10 +1,18 @@
 $( document ).ready(function() {
 
 	SCROLL_SPEED = 1000;
-
-	$(".home .bg").css("min-height", $(window).height() + 80 + "px");
-	$(".home, .tutors, .team").css("min-height", $(window).height() + "px");
-
+	
+	function setBoxHeight(){
+		$(".home, .tutors, .team").css("min-height", $(window).height() + "px");
+		var h = $(window).height();
+		if(h < 700) {
+			$(".home .bg").css("min-height", "700px");
+		} else {
+			$(".home .bg").css("min-height", $(window).height() + 80 + "px");
+		}
+	}
+	setBoxHeight();
+	
 	$(".menu li").click(function(){
 	
 		$.smoothScroll({
@@ -46,6 +54,11 @@ $( document ).ready(function() {
         	$menu.removeClass("shine");
         	$headernav.removeClass("shine");
         }
+    });
+
+    $(window).on('resize', function(){
+    	setBoxHeight();
+
     });
 
 });
